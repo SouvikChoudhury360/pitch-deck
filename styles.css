@@ -1,0 +1,46 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+p{
+    text-align: center;
+}
+    @media only screen and (min-width: 1000px) {
+        img{
+            width: 50%;
+        }
+        .center{
+            display: block;
+            margin-left: 400px;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        img{
+            width: 80%;
+        }
+        .center{
+            display: block;
+            margin-top: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
